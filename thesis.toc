@@ -1,2 +1,3 @@
 \select@language {ukrainian}
 \contentsline {section}{\numberline {1}\IeC {\CYRV }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrp }}{1}
+\contentsline {section}{\IeC {\CYRL }\IeC {\cyrii }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyra }}{3}
