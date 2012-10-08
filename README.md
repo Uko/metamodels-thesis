@@ -1,3 +1,4 @@
+_a template on which this thesis is written can be found [here](https://github.com/Uko/thesis-template)_
 Магістерська робота по метамоделях / Metamodels master's thesis
 ===============================================================
 
