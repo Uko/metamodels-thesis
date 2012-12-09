@@ -1,13 +1,12 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage[english, ukrainian]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage[T2A]{fontenc}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
 \usepackage[left=2.5cm,top=2.5cm,right=2.5cm,bottom=2.5cm,nohead]{geometry}
 \usepackage{setspace}
 \usepackage{listings}
 \usepackage{color}
 \usepackage{float}
-\usepackage[pdftex]{graphicx}
 \usepackage{courier}
 \usepackage{bold-extra}
 \usepackage{fix-cm}
@@ -15,6 +14,11 @@
 \usepackage{indentfirst}
 \usepackage{amsmath, amsthm, amssymb}
 \usepackage{url}
+
+\setmainfont{Times New Roman}
+\setmainlanguage{ukrainian}
+\setotherlanguage{english}
+\renewcommand\UrlFont{\ttfamilylatin}
 
 \setstretch{1.1}
 
