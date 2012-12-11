@@ -5,6 +5,7 @@
 \usepackage[left=2.5cm,top=2.5cm,right=2.5cm,bottom=2.5cm,nohead]{geometry}
 \usepackage{setspace}
 \usepackage{listings}
+\usepackage{graphicx}
 \usepackage{color}
 \usepackage{float}
 \usepackage{courier}
@@ -19,6 +20,8 @@
 \newfontfamily{\cyrillicfonttt}{Courier New}
 \setmainlanguage{ukrainian}
 \setotherlanguage{english}
+
+\graphicspath{{./images/}}
 
 \setstretch{1.1}
 
@@ -166,6 +169,12 @@ Moose використовує сім'ю мета-моделей під назв
 \end{enumerate}
 
 Тому в наступних моделях у нас будуть присутні базові типи \emph{речення} та \emph{вираз}, при чому без будь-яких безпосередніх зв'язків. Звичайно, в їхні наслідники можуть залежати одне від одного, але на найвищому рівні ми таких обмежень не накладаєм.
+\clearpage
+
+\section{Мета--модель абстрактного дерева Smalltalk}
+Діаграма класів моделі абстрактного синтаксичного дерева смолтоку:
+\includegraphics[width=\textwidth]{SmalltalkASTClassDiagram}
+
 \clearpage
 
 \addcontentsline{toc}{section}{Література}

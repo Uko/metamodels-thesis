@@ -3,4 +3,5 @@
 \contentsline {section}{\numberline {2}Moose}{3}
 \contentsline {section}{\numberline {3}Основні ідеї AST}{5}
 \contentsline {subsection}{\numberline {3.1}Основні поняття}{5}
-\contentsline {section}{Література}{7}
+\contentsline {section}{\numberline {4}Мета--модель абстрактного дерева Smalltalk}{7}
+\contentsline {section}{Література}{8}
