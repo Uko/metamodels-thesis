@@ -5,4 +5,6 @@
 \contentsline {section}{\numberline {3}Основні ідеї AST}{8}
 \contentsline {section}{\numberline {4}Мета--модель абстрактного дерева Smalltalk}{12}
 \contentsline {section}{\numberline {5}Symbol resolution}{13}
-\contentsline {section}{Література}{16}
+\contentsline {section}{\numberline {6}Метрики коду}{16}
+\contentsline {subsection}{\numberline {6.1}Цикломатична складність}{16}
+\contentsline {section}{Література}{18}
