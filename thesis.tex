@@ -18,9 +18,28 @@
 
 \defaultfontfeatures{Mapping=tex-text}
 
-\setmainfont{Liberation Serif}
-\setsansfont{Liberation Sans}
-\setmonofont{Liberation Mono}
+\setmainfont
+    [ Path           = fonts/ ,
+      UprightFont    = *-Regular,
+      BoldFont       = *-Bold ,
+      ItalicFont     = *-Italic ,
+      BoldItalicFont = *-BoldItalic]
+    {LiberationSerif}
+\setsansfont
+    [ Path           = fonts/ ,
+      UprightFont    = *-Regular,
+      BoldFont       = *-Bold ,
+      ItalicFont     = *-Italic ,
+      BoldItalicFont = *-BoldItalic]
+    {LiberationSans}
+\setmonofont
+    [ Path           = fonts/ ,
+      UprightFont    = *-Regular,
+      BoldFont       = *-Bold ,
+      ItalicFont     = *-Italic ,
+      BoldItalicFont = *-BoldItalic]
+    {LiberationMono}
+
 \setmainlanguage{ukrainian}
 \setotherlanguage{english}
 

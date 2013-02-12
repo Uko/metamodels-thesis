@@ -1,6 +1,6 @@
 _a template on which this thesis is written can be found [here](https://github.com/Uko/thesis-template)_
-Магістерська робота по метамоделях / Metamodels master's thesis
-===============================================================
+[![Build Status](https://travis-ci.org/Uko/metamodels-thesis.png?branch=master)](https://travis-ci.org/Uko/metamodels-thesis) Магістерська робота по метамоделях / Metamodels master's thesis
+=============================================================================================================================================================================================
 
 Вступ:
 ------
