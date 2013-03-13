@@ -1,7 +1,7 @@
 env:
   global:
-    - secure: "cVlGMsgzshHvrZeawJmT0awdm4yrQgZ7GvF+ZeAsbw8hF2D2S3s0L/ZXlZC6\nE8B+b0n9KGunRJjstTXA1pggGVihu7Lub5LlwkFPDRIU+KbNzX2OYv8bLKP1\no70PywkNA8RhwOGbe4LbrW0JlFfCIO4FxaHRPtmuB/tN9QbRh/g="
-    
+    - secure: "HlfHUJEBCx7ypvFJH1kVggCbo3pxVIsbcbexLRbJMnkn33OTIwemfMylrRYO\n7T99E0ZJWW5Te1Owd4CgagXNTJRwo4aOFLcguasQf3oQJ3qjlFwAP8TyEMdP\nlCl78KdC7r7rYAkjTS/42MmV7y8pLKGSq+9K64kGhP0DjnduSBc="
+
 install:
   - yes "" | sudo apt-add-repository ppa:texlive-backports/ppa
   - sudo apt-get update
