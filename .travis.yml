@@ -2,7 +2,10 @@ env:
   global:
     - secure: "SqwJVkmQ/hf3/Y4JLSdSwE2nxIT7Vyuj3BBRdIDcsOgG5LLfreRbpnFYIAuC\nQ4OPgmBHy2D/BUg9FWQTJ8f5HZ5V0qlBf7yyv8sdATV3USY71MGsoPXviHwK\na7HljM5hWVnPFy8ZhAzXem6F8+pZaftNYGZQgJEYCHKTJyoWP4k="
 
-install: .utility/setup.sh
+install:
+  - yes "" | sudo apt-add-repository ppa:texlive-backports/ppa
+  - sudo apt-get update
+  - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
 
 script: make
 
