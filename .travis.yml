@@ -1,12 +1,14 @@
+---
+install:
+- yes "" | sudo apt-add-repository ppa:texlive-backports/ppa
+- sudo apt-get update
+- sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+script: make
+after_success: .utility/update-gh-pages.sh
 env:
   global:
-    - secure: "OeNZfNu1C/H1wUbqAWJ4UhZmDC+mtl51OliONbbX5kyk1gwlOZ42TfzXW1WF\nUiMPthHw8ZKYpb9XJ+gZkxtJ8xMcOLIkxlw/jGHlrmH30sMcKrPMT/tZg3qP\n6jRZNy7qiwpnsQHd/JdhREXuSRul+VPk0YCnQLDpeNfjx9RcNSk="
+  - secure: ! 'V3QpWZhgho1I+2NM55TVKaN0I+tqUAFj2Dn64k5drtOyxIkaC1rn1I83sMJM
 
-install:
-  - yes "" | sudo apt-add-repository ppa:texlive-backports/ppa
-  - sudo apt-get update
-  - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+      BpZ/4LUDmg/RyX442J0PmFkPYHhOdjk6rO+3M37kR5QBb3rFsfM+92cRAX+8
 
-script: make
-
-after_success: .utility/update-gh-pages.sh
+      rehnFFyeamwIs3W1669k6vHQS7HUCQMFNsj7D6EQoCYfbvkGGFs='
