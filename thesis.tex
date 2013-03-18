@@ -255,12 +255,14 @@ middleOf: a and: b
 
 Щодо відмінності від моделі дерева у браузері для рефакторингу, то вона проявляється у структурі каскадного повідомлення. Оригінально каскадне повідомлення містило набір повідомлень, перше з яких містило отримувача, як показано на рис.~\ref{rbCascade}.
 \begin{figure}[h]
+        \vspace{\columnsep}
         \centering
         \begin{subfigure}[b]{0.45\textwidth}
                 \centering
                 \includegraphics[width=\textwidth]{rbCascade}
                 \caption{Браузер рефакторингу\label{rbCascade}}
-        \end{subfigure}\quad
+        \end{subfigure}
+        \hspace{0.05\textwidth}
         \begin{subfigure}[b]{0.45\textwidth}
                 \centering
                 \includegraphics[width=\textwidth]{fastCascade}
