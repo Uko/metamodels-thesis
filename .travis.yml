@@ -9,4 +9,4 @@ install:
 
 script: make
 
-after_success: .utility/update-gh-pages.sh
+#after_success: .utility/update-gh-pages.sh
